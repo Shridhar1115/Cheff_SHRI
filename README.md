@@ -1,2 +1,2 @@
 # Cheff_SHRI
-Mr. Cheff_SHRI will solve some questions in c++.
+Hello guys Mr. Cheff_SHRI hrer! I will solve some questions in c++ cheff codes.
