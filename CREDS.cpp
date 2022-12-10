@@ -2,14 +2,14 @@
 using namespace std;
 
 int main() {
+    int t;
+    cin>>t;
+    while (t!=0){
+        t--;
+        int a,b,c;
+        cin>>a>>b>>c;
+        cout<<(4*a + 2*b + 0*c)<<endl;
+    }
 	// your code goes here
-	int n;
-	cin >> n;
-	int x,y,z;
-	for(int i=0;i<n;i++){
-	cin >> x >> y >> z;
-	int credit = 4*x + 2*y;
-	cout << credit << endl;
-	}
 	return 0;
 }
