@@ -2,17 +2,13 @@
 using namespace std;
 
 int main() {
-	// your code goes here
-	int t;
-	cin>>t;
-	for(int i=0;i<t;i++){
-	    int a,b;
-	    cin>>a>>b;
-	    b=b*2;
-	    if(b<=a){
-	        cout<<"YES\n";
-	    }
-	    else cout<<"NO\n";
-	}
+    int t;
+    cin>>t;
+    while(t--){
+        int a,b;
+        cin>>a>>b;
+        if (a>=b*2) cout<<"YES\n";
+        else cout<<"NO\n";
+        }
 	return 0;
 }

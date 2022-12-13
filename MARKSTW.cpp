@@ -1,9 +1,8 @@
 #include <iostream>
 using namespace std;
-
 int main() {
 	// your code goes here
-    int a,b;
+   int a,b;
 	cin>>a>>b;
 	a=a/2;
 	if(b==a) {
