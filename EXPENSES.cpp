@@ -1,21 +1,19 @@
 #include <iostream>
-#include<math.h>
+#include<cmath>
 using namespace std;
 
 int main() {
 	// your code goes here
 	int t;
 	cin>>t;
-	for(int i=0;i<t;i++){
-	    int n,m,a=1;
-	    cin>>n>>m;
-	    for(int k=0;k<m;k++){
-	        a=a*2;
-	    }
-	    for(int j=0;j<n;j++){
-	        a=a/2;
-	    }
-	    cout<<a<<endl;
+	while(t--){
+	  int n,x;
+	  cin>>n>>x;
+	  float total=pow(2,x);
+	  for(int i=1;i<=n;i++){
+	      total=total-(total/2);
+	  }
+	  cout<<total<<endl;
 	}
 	return 0;
 }
