@@ -2,15 +2,14 @@
 using namespace std;
 
 int main() {
-    int n;
-    cin>>n;
-    while(n--){
-        int a,b,c;
-        cin>>a>>b>>c;
-        if (a==b || a==c) cout<<"NO\n";
-        else if (b==a || b==c) cout<<"NO\n";
-        else cout<<"YES\n";
-    }
 	// your code goes here
+	int t;
+	cin>>t;
+	for(int i=0;i<t;i++){
+	    int a,b,c;
+	    cin>>a>>b>>c;
+	    if(a==b || b==c || a==c) cout<<"NO\n";
+	    else cout<<"YES\n";
+	}
 	return 0;
 }
