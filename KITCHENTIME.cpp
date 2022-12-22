@@ -2,13 +2,13 @@
 using namespace std;
 
 int main() {
+    int t;
+    cin>>t;
+    while(t--){
+        int a,b;
+        cin>>a>>b;
+        cout<<b-a<<endl;
+    }
 	// your code goes here
-	int t;
-	cin>>t;
-	for(int i=0;i<t;i++){
-	    int a,b;
-	    cin>>a>>b;
-	    cout<<(b-a)<<endl;
-	}
 	return 0;
 }
