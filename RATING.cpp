@@ -6,11 +6,11 @@ int main() {
 	int t;
 	cin>>t;
 	for(int i=0;i<t;i++){
-	    int x,y;
-	    cin>>x>>y;
-	    y=y*10;
-	    if(x>y) cout<<"YES\n";
-	    else cout<<"NO\n";
+	    int s;
+	    cin>>s;
+	    int x=1,y;
+	    y=s+x;
+	    cout<<-(x*y)<<endl;
 	}
 	return 0;
 }
