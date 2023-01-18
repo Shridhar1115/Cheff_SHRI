@@ -5,11 +5,10 @@ int main() {
     int t;
     cin>>t;
     while(t--){
-        int a,b,c;
-        cin>>a>>b>>c;
-        c=a+c;
-        if (b>=c) cout<<"Yes\n";
-        else cout<<"No\n";
+        int n;
+        cin>>n;
+        if (n>=2000) cout<<"YES\n";
+        else cout<<"NO\n";
     }
 	// your code goes here
 	return 0;
