@@ -7,7 +7,8 @@ int main() {
     while(t--){
         int a,b;
         cin>>a>>b;
-        cout<<a+b<<endl;
+        if (a<b) cout<<"YES\n";
+        else cout<<"NO\n";
     }
 	// your code goes here
 	return 0;

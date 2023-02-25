@@ -7,7 +7,8 @@ int main() {
     while(t--){
         int a,b;
         cin>>a>>b;
-        cout<<a+b<<endl;
+        if (a+b<=6) cout<<"NO\n";
+        else cout<<"YES\n";
     }
 	// your code goes here
 	return 0;
