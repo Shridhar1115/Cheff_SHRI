@@ -5,10 +5,10 @@ int main() {
     int t;
     cin>>t;
     while(t--){
-        int n,m,k;
-        cin>>n>>m>>k;
-        if ((m*k)>=n) cout<<"YES\n";
-        else cout<<"NO\n";
+        int n;
+        cin>>n;
+        if (n>24) cout<<"Yes\n";
+        else cout<<"No\n";
     }
 	// your code goes here
 	return 0;

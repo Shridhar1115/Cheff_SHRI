@@ -1,14 +1,13 @@
 #include <iostream>
 using namespace std;
-
+# define ll long long
 int main() {
-    int t;
+    ll t;
     cin>>t;
     while(t--){
-        int n,m,k;
-        cin>>n>>m>>k;
-        if ((m*k)>=n) cout<<"YES\n";
-        else cout<<"NO\n";
+        ll a,b,c;
+        cin>>a>>b>>c;
+        cout<<c-a<<endl;
     }
 	// your code goes here
 	return 0;
