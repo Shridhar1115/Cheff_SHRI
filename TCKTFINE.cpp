@@ -7,7 +7,7 @@ int main() {
     while(t--){
         int a,b,c;
         cin>>a>>b>>c;
-        cout<<a*b*c<<endl;
+        cout<<a*(b-c)<<endl;
     }
 	// your code goes here
 	return 0;
