@@ -6,14 +6,13 @@ int main() {
 	int t;
 	cin>>t;
 	for(int j=0;j<t;j++){
-	    int n,x;
-	    cin>>n>>x;
-	    n=n*x;
-	    if(n%4!=0){
-	        cout<<(n/4)+1<<endl;
+	    int x,y;
+	    cin>>x>>y;
+	    if(x<=(y*2)){
+	        cout<<"YES\n";
 	    }
 	    else{
-	        cout<<(n/4)<<endl;
+	        cout<<"NO\n";
 	    }
 	}
 	return 0;
